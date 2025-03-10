@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
 env:
-  PACT_BROKER_BASE_URL: https://galwayse.pactflow.io
-  PACT_BROKER_TOKEN: 9rHjtK3ssQ-kXAC2qAZW9A
+  PACT_BROKER_BASE_URL: https://project-meridian.pactflow.io
+  PACT_BROKER_TOKEN: 425kZJ_sfh0ppQCm8oMBdg
   REACT_APP_API_BASE_URL: http://localhost:3001
   GIT_COMMIT: ${{ github.sha }}
   GIT_REF: ${{ github.ref }}
